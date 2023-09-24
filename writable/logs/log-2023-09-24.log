@@ -1,0 +1,8 @@
+CRITICAL - 2023-09-24 07:04:33 --> Undefined property: App\Controllers\MainController::$music
+in APPPATH\Controllers\MainController.php on line 16.
+ 1 APPPATH\Controllers\MainController.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\MainController::$music', 'C:\\laragon\\www\\Musicplayer\\app\\Controllers\\MainController.php', 16)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MainController->song()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Musicplayer\\public\\index.php')

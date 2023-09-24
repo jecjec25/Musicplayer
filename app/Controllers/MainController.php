@@ -8,14 +8,17 @@ class MainController extends BaseController
 {
     private $music;
     private $play;
+
     public function __construct(){
         $this->music = new \App\Models\SongModel();
         $this->play = new \App\Models\PlaylistModel();
     }
+
     public function index()
     {
         //
     }
+
     public function song()
     {
         $data=[
@@ -24,10 +27,21 @@ class MainController extends BaseController
         ];
         return view ('song', $data);
     }
+
     public function save(){
         $data = ['playlist' => $this->request->getVar('playlist')];
         $this->play->save($data);
-        return redirect()->to('chris');
+        return redirect()->to('playmusic');
     }
+
+    public function insert(){
+        $data=['file'=>$this->request->getVar('file'),
+        'Artist'=>$this->request->getVar('Artist'),
+        'Title'=>$this->request->getVar('Title'),
+    ];
+    $this->music->save($data);
+    return redirect()->to('playmusic');
+    }
+
     
 }

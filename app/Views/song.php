@@ -40,15 +40,26 @@
   </form>
 
     <h1>Music Player</h1>
+    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#inserting">Insert Music</button>
     <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">My Playlist</button>
-    <audio id="audio" controls autoplay><source src="C:\Users\ASUS\Music"></audio>
+    <audio id="audio" controls autoplay rul></audio>
+
     <ul id="playlist">
-    <li data-src="SueThompsonSadMovies.mp3">Song Name</li>
+    <?php if ($music): ?>
+        <?php foreach ($music as $msc): ?>
+            <li data-src="<?=base_url(); ?>/song/<?=$msc['file'];?>.mp3"><?=$msc['file'];?>
+            <a href="/addplaylist" data-bs-toggle="modal"data-bs-toggle="#addPlaylist">
+                <i class="fa-solid fa-plus"></i>
+            </a>
+            </li>
+        <?php endforeach; ?>
+    <?php endif; ?>
     </ul>
 
     <?php include('playlist.php');?>
     <?php include('create.php');?>
     <?php include('design.php');?>
+    <?php include('insert.php');?>
 
     <script>
     $(document).ready(function () {

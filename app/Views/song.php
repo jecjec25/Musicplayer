@@ -41,13 +41,9 @@
 
     <h1>Music Player</h1>
     <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">My Playlist</button>
-
-    <audio id="audio" controls autoplay></audio>
+    <audio id="audio" controls autoplay><source src="C:\Users\ASUS\Music"></audio>
     <ul id="playlist">
-
-        <li data-src="/your music src">music name
-        </li>
-
+    <li data-src="SueThompsonSadMovies.mp3">Song Name</li>
     </ul>
 
     <?php include('playlist.php');?>

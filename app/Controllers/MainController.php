@@ -26,6 +26,7 @@ class MainController extends BaseController
     }
     public function save(){
         $data = ['playlist' => $this->request->getVar('playlist')];
+        $this->play->save($data);
         return redirect()->to('chris');
     }
     

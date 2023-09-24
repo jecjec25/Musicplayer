@@ -13,7 +13,7 @@ class SongModel extends Model
     protected $returnType       = 'array';
     protected $useSoftDeletes   = false;
     protected $protectFields    = true;
-    protected $allowedFields    = ['MusicTitle'];
+    protected $allowedFields    = ['MusicTitle', 'file', 'artist'];
 
     // Dates
     protected $useTimestamps = false;

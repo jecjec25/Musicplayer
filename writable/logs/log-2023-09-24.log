@@ -278,3 +278,27 @@ in SYSTEMPATH\BaseModel.php on line 768.
  7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
  8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
  9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Musicplayer\\public\\index.php')
+CRITICAL - 2023-09-24 14:05:21 --> There is no data to insert.
+in SYSTEMPATH\BaseModel.php on line 768.
+ 1 SYSTEMPATH\BaseModel.php(768): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([], false)
+ 3 SYSTEMPATH\BaseModel.php(698): CodeIgniter\Model->insert([...], false)
+ 4 APPPATH\Controllers\MainController.php(42): CodeIgniter\BaseModel->save([...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MainController->insert()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Musicplayer\\public\\index.php')
+CRITICAL - 2023-09-24 14:15:10 --> Undefined variable $play
+in APPPATH\Views\playlist.php on line 17.
+ 1 APPPATH\Views\playlist.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $play', 'C:\\laragon\\www\\Musicplayer\\app\\Views\\playlist.php', 17)
+ 2 APPPATH\Views\song.php(58): include('C:\\laragon\\www\\Musicplayer\\app\\Views\\playlist.php')
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\Musicplayer\\app\\Views\\song.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('song', [], true)
+ 6 APPPATH\Controllers\MainController.php(55): view('song', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MainController->searchsong()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Musicplayer\\public\\index.php')

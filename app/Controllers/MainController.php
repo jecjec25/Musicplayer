@@ -36,12 +36,24 @@ class MainController extends BaseController
 
     public function insert(){
         $data=['file'=>$this->request->getVar('file'),
-        'Artist'=>$this->request->getVar('Artist'),
-        'Title'=>$this->request->getVar('Title'),
+        'Artist'=>$this->request->getVar('artist'),
+        'Title'=>$this->request->getVar('MusicTitle'),
     ];
     $this->music->save($data);
     return redirect()->to('playmusic');
     }
+
+    public function search(){
+        $searchQuery = $this->request->getVar('search');
+
+        if ($searchQuery) {
+           
+          
+        $data= ['music' => $this->music->like('file', $searchQuery)->findAll(),
+        'play' => $this->play->findAll()]; 
+    }
+    return view('song', $data);
+}
 
     
 }

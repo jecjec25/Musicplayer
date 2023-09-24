@@ -9,3 +9,4 @@ $routes->get('/', 'Home::index');
 $routes->get('/playmusic', 'MainController::song');
 $routes->post('/save', 'MainController::save');
 $routes->post('/insert', 'MainController::insert');
+$routes->get('/search', 'MainController::search');

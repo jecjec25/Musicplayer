@@ -34,11 +34,10 @@
       </div>
     </div>
   </div>
-  <form action="/" method="get">
-    <input type="search" name="search" placeholder="search song">
-    <button type="submit" class="btn btn-primary">search</button>
+  <form action="/search" method="get">
+    <input type="search" name="search" placeholder="Search a Song">
+    <button type="submit" class="btn btn-primary">Search</button>
   </form>
-
     <h1>Music Player</h1>
     <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#inserting">Insert Music</button>
     <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">My Playlist</button>
@@ -47,7 +46,7 @@
     <ul id="playlist">
     <?php if ($music): ?>
         <?php foreach ($music as $msc): ?>
-            <li data-src="<?=base_url(); ?>/song/<?=$msc['file'];?>.mp3"><?=$msc['file'];?>
+            <li data-src="<?=base_url(); ?>/songs/<?=$msc['file'];?>.mp3"><?=$msc['file'];?>
             <a href="/addplaylist" data-bs-toggle="modal"data-bs-toggle="#addPlaylist">
                 <i class="fa-solid fa-plus"></i>
             </a>

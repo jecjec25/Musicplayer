@@ -47,8 +47,8 @@
     <?php if ($music): ?>
         <?php foreach ($music as $msc): ?>
             <li data-src="<?=base_url(); ?>/songs/<?=$msc['file'];?>.mp3"><?=$msc['file'];?>
-            <a href="/addplaylist" data-bs-toggle="modal"data-bs-toggle="#addPlaylist">
-                <i class="fa-solid fa-plus"></i>
+            <a href="#" data-bs-toggle="modal"data-bs-target="#chris">
+                add
             </a>
             </li>
         <?php endforeach; ?>
@@ -59,6 +59,8 @@
     <?php include('create.php');?>
     <?php include('design.php');?>
     <?php include('insert.php');?>
+    <?php include('insertsaplaylist.php');?>
+
 
     <script>
     $(document).ready(function () {

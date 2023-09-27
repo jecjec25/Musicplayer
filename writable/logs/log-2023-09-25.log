@@ -46,7 +46,11 @@ in APPPATH\Views\insertsaplaylist.php on line 18.
  8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
  9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
 10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Musicplayer\\public\\index.php')
+<<<<<<< HEAD
+CRITICAL - 2023-09-25 07:13:55 --> Cannot access offset of type string on string
+=======
 CRITICAL - 2023-09-25 06:57:11 --> Cannot access offset of type string on string
+>>>>>>> 8b729bf502d5a387ff6abc4239bb65e0ef8fcefb
 in APPPATH\Views\insertsaplaylist.php on line 18.
  1 APPPATH\Views\song.php(62): include()
  2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\Musicplayer\\app\\Views\\song.php')
@@ -58,7 +62,11 @@ in APPPATH\Views\insertsaplaylist.php on line 18.
  8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
  9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
 10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Musicplayer\\public\\index.php')
+<<<<<<< HEAD
+CRITICAL - 2023-09-25 07:17:29 --> Cannot access offset of type string on string
+=======
 CRITICAL - 2023-09-25 06:57:18 --> Cannot access offset of type string on string
+>>>>>>> 8b729bf502d5a387ff6abc4239bb65e0ef8fcefb
 in APPPATH\Views\insertsaplaylist.php on line 18.
  1 APPPATH\Views\song.php(62): include()
  2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\Musicplayer\\app\\Views\\song.php')
@@ -70,7 +78,11 @@ in APPPATH\Views\insertsaplaylist.php on line 18.
  8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
  9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
 10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Musicplayer\\public\\index.php')
+<<<<<<< HEAD
+CRITICAL - 2023-09-25 07:18:06 --> Cannot access offset of type string on string
+=======
 CRITICAL - 2023-09-25 07:03:13 --> Cannot access offset of type string on string
+>>>>>>> 8b729bf502d5a387ff6abc4239bb65e0ef8fcefb
 in APPPATH\Views\insertsaplaylist.php on line 18.
  1 APPPATH\Views\song.php(62): include()
  2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\Musicplayer\\app\\Views\\song.php')
@@ -82,3 +94,191 @@ in APPPATH\Views\insertsaplaylist.php on line 18.
  8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
  9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
 10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Musicplayer\\public\\index.php')
+<<<<<<< HEAD
+CRITICAL - 2023-09-25 07:19:28 --> Undefined variable $play
+in APPPATH\Views\playlist.php on line 17.
+ 1 APPPATH\Views\playlist.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $play', 'C:\\laragon\\www\\Musicplayer\\app\\Views\\playlist.php', 17)
+ 2 APPPATH\Views\song.php(58): include('C:\\laragon\\www\\Musicplayer\\app\\Views\\playlist.php')
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\Musicplayer\\app\\Views\\song.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('song', [], true)
+ 6 APPPATH\Controllers\MainController.php(28): view('song', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MainController->song()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Musicplayer\\public\\index.php')
+CRITICAL - 2023-09-25 07:19:45 --> Cannot access offset of type string on string
+in APPPATH\Views\insertsaplaylist.php on line 18.
+ 1 APPPATH\Views\song.php(62): include()
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\Musicplayer\\app\\Views\\song.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('song', [], true)
+ 5 APPPATH\Controllers\MainController.php(28): view('song', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MainController->song()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Musicplayer\\public\\index.php')
+CRITICAL - 2023-09-25 07:26:40 --> Undefined variable $play
+in APPPATH\Views\playlist.php on line 18.
+ 1 APPPATH\Views\playlist.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $play', 'C:\\laragon\\www\\Musicplayer\\app\\Views\\playlist.php', 18)
+ 2 APPPATH\Views\song.php(58): include('C:\\laragon\\www\\Musicplayer\\app\\Views\\playlist.php')
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\Musicplayer\\app\\Views\\song.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('song', [], true)
+ 6 APPPATH\Controllers\MainController.php(27): view('song', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MainController->song()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Musicplayer\\public\\index.php')
+CRITICAL - 2023-09-25 07:26:52 --> syntax error, unexpected end of file
+in APPPATH\Views\playlist.php on line 33.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('song', [], true)
+ 4 APPPATH\Controllers\MainController.php(27): view('song', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MainController->song()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Musicplayer\\public\\index.php')
+CRITICAL - 2023-09-25 07:27:02 --> Cannot access offset of type string on string
+in APPPATH\Views\insertsaplaylist.php on line 18.
+ 1 APPPATH\Views\song.php(62): include()
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\Musicplayer\\app\\Views\\song.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('song', [], true)
+ 5 APPPATH\Controllers\MainController.php(27): view('song', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MainController->song()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Musicplayer\\public\\index.php')
+CRITICAL - 2023-09-25 07:27:09 --> syntax error, unexpected token "endforeach", expecting end of file
+in APPPATH\Views\insertsaplaylist.php on line 19.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('song', [], true)
+ 4 APPPATH\Controllers\MainController.php(27): view('song', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MainController->song()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Musicplayer\\public\\index.php')
+CRITICAL - 2023-09-25 07:27:37 --> Cannot access offset of type string on string
+in APPPATH\Views\insertsaplaylist.php on line 18.
+ 1 APPPATH\Views\song.php(62): include()
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\Musicplayer\\app\\Views\\song.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('song', [], true)
+ 5 APPPATH\Controllers\MainController.php(27): view('song', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MainController->song()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Musicplayer\\public\\index.php')
+CRITICAL - 2023-09-25 07:27:57 --> Undefined variable $playlist
+in APPPATH\Views\insertsaplaylist.php on line 17.
+ 1 APPPATH\Views\insertsaplaylist.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $playlist', 'C:\\laragon\\www\\Musicplayer\\app\\Views\\insertsaplaylist.php', 17)
+ 2 APPPATH\Views\song.php(62): include('C:\\laragon\\www\\Musicplayer\\app\\Views\\insertsaplaylist.php')
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\Musicplayer\\app\\Views\\song.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('song', [], true)
+ 6 APPPATH\Controllers\MainController.php(27): view('song', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MainController->song()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Musicplayer\\public\\index.php')
+CRITICAL - 2023-09-25 07:28:43 --> Cannot redeclare App\Controllers\MainController::song()
+in APPPATH\Controllers\MainController.php on line 29.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-09-25 07:40:39 --> Undefined array key "id"
+in APPPATH\Views\song.php on line 50.
+ 1 APPPATH\Views\song.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\laragon\\www\\Musicplayer\\app\\Views\\song.php', 50)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\Musicplayer\\app\\Views\\song.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('song', [], true)
+ 5 APPPATH\Controllers\MainController.php(29): view('song', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MainController->song()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Musicplayer\\public\\index.php')
+CRITICAL - 2023-09-25 07:42:55 --> Undefined variable $plays
+in APPPATH\Views\playlist.php on line 17.
+ 1 APPPATH\Views\playlist.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $plays', 'C:\\laragon\\www\\Musicplayer\\app\\Views\\playlist.php', 17)
+ 2 APPPATH\Views\song.php(58): include('C:\\laragon\\www\\Musicplayer\\app\\Views\\playlist.php')
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\Musicplayer\\app\\Views\\song.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('song', [], true)
+ 6 APPPATH\Controllers\MainController.php(64): view('song', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MainController->search()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Musicplayer\\public\\index.php')
+=======
+>>>>>>> 8b729bf502d5a387ff6abc4239bb65e0ef8fcefb
+ERROR - 2023-09-25 13:51:39 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`dbsong`.`tbsong`, CONSTRAINT `tbsong_ibfk_1` FOREIGN KEY (`idmusic`) REFERENCES `tbmusic` (`id`) ON DELETE SET NULL ON UPDATE SET NULL) in C:\laragon\www\Musicplayer\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\Musicplayer\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\laragon\www\Musicplayer\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\laragon\www\Musicplayer\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\laragon\www\Musicplayer\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\laragon\www\Musicplayer\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\Musicplayer\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\Musicplayer\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\laragon\www\Musicplayer\system\BaseModel.php(698): CodeIgniter\Model->insert(Array, false)
+#8 C:\laragon\www\Musicplayer\app\Controllers\MainController.php(77): CodeIgniter\BaseModel->save(Array)
+#9 C:\laragon\www\Musicplayer\system\CodeIgniter.php(919): App\Controllers\MainController->saveMusic()
+#10 C:\laragon\www\Musicplayer\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+#11 C:\laragon\www\Musicplayer\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\laragon\www\Musicplayer\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 C:\laragon\www\Musicplayer\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#14 {main}
+CRITICAL - 2023-09-25 13:51:39 --> Cannot add or update a child row: a foreign key constraint fails (`dbsong`.`tbsong`, CONSTRAINT `tbsong_ibfk_1` FOREIGN KEY (`idmusic`) REFERENCES `tbmusic` (`id`) ON DELETE SET NULL ON UPDATE SET NULL)
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tbsong` (`idmusic`, `idplaylist`) VALUES (:idmusic:, :idplaylist:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(698): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\MainController.php(77): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MainController->saveMusic()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Musicplayer\\public\\index.php')
+ERROR - 2023-09-25 13:52:21 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`dbsong`.`tbsong`, CONSTRAINT `tbsong_ibfk_1` FOREIGN KEY (`idmusic`) REFERENCES `tbmusic` (`id`) ON DELETE SET NULL ON UPDATE SET NULL) in C:\laragon\www\Musicplayer\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\Musicplayer\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\laragon\www\Musicplayer\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\laragon\www\Musicplayer\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\laragon\www\Musicplayer\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\laragon\www\Musicplayer\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\Musicplayer\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\Musicplayer\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\laragon\www\Musicplayer\system\BaseModel.php(698): CodeIgniter\Model->insert(Array, false)
+#8 C:\laragon\www\Musicplayer\app\Controllers\MainController.php(77): CodeIgniter\BaseModel->save(Array)
+#9 C:\laragon\www\Musicplayer\system\CodeIgniter.php(919): App\Controllers\MainController->saveMusic()
+#10 C:\laragon\www\Musicplayer\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+#11 C:\laragon\www\Musicplayer\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\laragon\www\Musicplayer\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 C:\laragon\www\Musicplayer\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#14 {main}
+CRITICAL - 2023-09-25 13:52:21 --> Cannot add or update a child row: a foreign key constraint fails (`dbsong`.`tbsong`, CONSTRAINT `tbsong_ibfk_1` FOREIGN KEY (`idmusic`) REFERENCES `tbmusic` (`id`) ON DELETE SET NULL ON UPDATE SET NULL)
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tbsong` (`idmusic`, `idplaylist`) VALUES (:idmusic:, :idplaylist:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(698): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\MainController.php(77): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MainController->saveMusic()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Musicplayer\\public\\index.php')

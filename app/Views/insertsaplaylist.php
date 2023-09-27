@@ -10,11 +10,13 @@
 
           <!-- Modal body -->
           <div class="modal-body">
-          <form action="/" method="post">
+          <form action="/saveMusic" method="post" enctype="multipart/form-data">
             <!-- <p id="modalData"></p> -->
             <input type="hidden" name="id">
-            <select  name="playlist" class="form-control" >
-                    <?php foreach($play as $play): ?>
+            <input type="text" name="idmusic" value ="<?= isset($msc['file'])? $msc['file']: ''?>">
+            <select name="idplaylist" class="form-control" value ="<?= isset($msc['playlist'])? $msc['playlist']: ''?>">
+              
+                <?php foreach($plays as $play): ?>
               <option><?= $play['playlist']?></option>
             <?php endforeach; ?>
             </select> 

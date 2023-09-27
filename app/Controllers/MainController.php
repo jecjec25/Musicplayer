@@ -8,10 +8,11 @@ class MainController extends BaseController
 {
     private $music;
     private $play;
-
+    private $song;
     public function __construct(){
         $this->music = new \App\Models\SongModel();
         $this->play = new \App\Models\PlaylistModel();
+        $this->song = new \App\Models\MusicModel();
     }
 
     public function index()
@@ -23,7 +24,15 @@ class MainController extends BaseController
     {
         $data=[
             'music' => $this->music->findAll(),
-            'play' => $this->play->findAll()
+            'plays' => $this->play->findAll()
+        ];
+        return view ('song', $data);
+    }
+    public function songs()
+    {
+        $data=[
+            'music' => $this->music->findAll(),
+            'plays' => $this->play->findAll()
         ];
         return view ('song', $data);
     }
@@ -36,8 +45,8 @@ class MainController extends BaseController
 
     public function insert(){
         $data=['file'=>$this->request->getVar('file'),
-        'Artist'=>$this->request->getVar('artist'),
-        'Title'=>$this->request->getVar('MusicTitle'),
+        'artist'=>$this->request->getVar('artist'),
+        'MusicTitle'=>$this->request->getVar('MusicTitle'),
     ];
     $this->music->save($data);
     return redirect()->to('playmusic');
@@ -50,10 +59,23 @@ class MainController extends BaseController
            
           
         $data= ['music' => $this->music->like('file', $searchQuery)->findAll(),
-        'play' => $this->play->findAll()]; 
+        'plays' => $this->play->findAll()]; 
     }
     return view('song', $data);
 }
-
-    
+public function kanta($id){
+    $data =['music' =>$this->music->findAll(),
+    'mus' =>$this->music->where('id', $id)->first(),
+    'play' =>$this->play->findAll(),
+];
+return view('song', $data);
+return redirect()->to('playmusic');
+}
+    public function saveMusic(){
+        $data = ['idmusic' => $this->request->getVar('idmusic'),
+                'idplaylist' => $this->request->getVar('idplaylist')   
+    ];
+    $this->song->save($data);
+    return redirect()->to('playmusic');
+}
 }

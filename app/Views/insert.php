@@ -15,9 +15,9 @@
             <input type="hidden" id="id" name="id">
             <input type="file" name="file" required>
             <label>Artist:</label>
-            <input type="text" name="Artist" placeholder="Artist" required>
+            <input type="text" name="artist" placeholder="Artist" required>
             <label>Title:</label>
-            <input type="text" name="Title" placeholder="MusicTitle" required>
+            <input type="text" name="MusicTitle" placeholder="MusicTitle" required>
             <button type="submit" class="btn btn-success" name="insert">Insert</button>
           </form>
           </div>

@@ -14,7 +14,7 @@
             <!-- <p id="modalData"></p> -->
             <input type="hidden" name="id">
             <select  name="playlist" class="form-control" >
-                    <?php foreach($play as $play): ?>
+                    <?php foreach($plays as $play): ?>
               <option value="playlist"><?= $play['playlist']?></option>
             <?php endforeach; ?>
             </select> 
